@@ -1,0 +1,80 @@
+body {
+    background-color: #09565c;
+    margin: 0;
+    color: #e7f3f4;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    background: #07484d;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.squares {
+    width: 10rem;
+    height: 10rem;
+    background-color: #07484d;
+    float: left;
+    transition: all 0.2s ease-out;
+    margin:0;
+    line-height: 10rem;
+    font-family: 'Courier Prime', monospace;
+}
+
+.squares:hover {
+    background-color: #06393d;
+    color: #8fbdc0;
+}
+
+#container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.done {
+    text-align: center;
+    font-weight: 700;
+    font-size: 5rem;
+    align-items: center;
+}
+
+.winner {
+    text-decoration: line-through;
+}
+
+#one, #two, #three, #four, #five, #six {
+    border-bottom: 1px solid #aaaaaa;
+}
+
+#two, #five, #eight {
+    border-left: 1px solid #aaaaaa;
+    border-right: 1px solid #aaaaaa;
+}
+
+#screen {
+    background-color: #07484d;
+    margin: 0;
+    line-height: 150%;
+    text-align: center;
+}
+
+button {
+    margin: 10px auto;
+    background-color: rgba(0, 174, 150, 0.09);
+    padding:20px;
+    display: block;
+    width: 8em;
+    border-radius: 25px;
+    border: 1px solid #aaaaaa;
+    font-size: 2em;
+    font-family: 'Courier Prime', monospace;
+    outline: none;
+    font-weight: 500;
+    color: #e7f3f4;
+    transition: all 0.2s ease-out;
+}
+
+button:active {
+    background-color: #07484d;
